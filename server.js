@@ -16,10 +16,6 @@ const fs = require('fs');
 
 // const users = require('./database/users.json')
 
-const cookiePraser = require('cookie-parser')
-
-app.use(cookiePraser())
-
 app.engine('hbs', expHbs({extname:'hbs'}))
 
 app.set('view engine', 'hbs')
