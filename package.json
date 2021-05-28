@@ -1,0 +1,26 @@
+{
+  "name": "backend-project-umar-khan-au16",
+  "version": "1.0.0",
+  "description": "Backend Project on Books Library were user can add / read  different types of books ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attainu/backend-project-Umar-Khan-au16.git"
+  },
+  "author": "velmurgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attainu/backend-project-Umar-Khan-au16/issues"
+  },
+  "homepage": "https://github.com/attainu/backend-project-Umar-Khan-au16#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-handlebars": "^5.3.2"
+  }
+}
