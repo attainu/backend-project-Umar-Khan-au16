@@ -7,14 +7,17 @@ const morgan = require('morgan')
 
 const cors = require('cors')
 
+const mongoose = require('mongoose')
+
 const app = express()
 
 const port = process.env.PORT
 
-
 const expHbs = require("express-handlebars")
 
 const fileUpload = require('express-fileupload')
+
+const database = require('./database/my_database')
 
 // middleware setup 
 
