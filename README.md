@@ -6,8 +6,6 @@ Books Library is a program where we can save ‘n’ numbers of books for future
 
 <!-- Features : -->
 
-SignUp
-Login
 Add New Book
 View Books
 
