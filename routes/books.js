@@ -3,6 +3,7 @@ const router = express.Router()
 const Book = require('../models/book')
 const Author = require('../models/author')
 const imageMimeTypes = ['image/jpeg', 'image/png', 'images/gif']
+const cloudinary = require('cloudinary').v2
 
 // All Books Route
 router.get('/', async (req, res) => {
