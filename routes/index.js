@@ -2,8 +2,6 @@ const express = require('express')
 const router = express.Router()
 const Book = require('../models/book')
 
-//  Home route 
-
 router.get('/', async (req, res) => {
   let books
   try {
