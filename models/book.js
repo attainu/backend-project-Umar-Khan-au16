@@ -1,8 +1,5 @@
 const mongoose = require('mongoose')
 
-
-//  Schema for books is created 
-
 const bookSchema = new mongoose.Schema({
   title: {
     type: String,
